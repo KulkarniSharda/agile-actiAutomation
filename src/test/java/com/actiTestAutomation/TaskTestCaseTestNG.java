@@ -1,6 +1,6 @@
 
 
-package com.orangehrm.automation;
+package com.actiTestAutomation;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

@@ -1,4 +1,4 @@
-package com.orangehrm.automation;
+package com.actiTestAutomation;
 
 import org.testng.annotations.*;
 

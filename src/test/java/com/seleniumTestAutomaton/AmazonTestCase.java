@@ -1,5 +1,7 @@
-package SeleniumFramework;
+package com.seleniumTestAutomaton;
 
+import com.automateFramework.TestListeners;
+import com.automateFramework.baseClass;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeGroups;

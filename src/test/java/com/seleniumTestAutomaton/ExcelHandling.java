@@ -1,4 +1,4 @@
-package SeleniumFramework;
+package com.seleniumTestAutomaton;
 
 import java.awt.Font;
 import java.io.File;
@@ -26,7 +26,7 @@ import org.testng.annotations.Test;
 
 public class ExcelHandling extends baseClass {
 
-	@org.testng.annotations.DataProvider(name = "ExcelData")
+	@DataProvider(name = "ExcelData")
 	public Object[][] excelMethod() throws Exception {
 
 		Object[][] testData = null;

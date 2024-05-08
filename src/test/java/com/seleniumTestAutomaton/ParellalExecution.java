@@ -1,5 +1,6 @@
-package SeleniumFramework;
+package com.seleniumTestAutomaton;
 
+import com.automateFramework.baseClass;
 import org.testng.annotations.Test;
 import org.testng.annotations.DataProvider;
 import org.openqa.selenium.By;

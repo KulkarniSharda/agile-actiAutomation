@@ -1,4 +1,4 @@
-package SeleniumFramework;
+package com.seleniumTestAutomaton;
 
 import org.testng.annotations.Test;
 
