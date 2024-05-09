@@ -31,7 +31,7 @@ public class ConfigProperties {
 
 	}
 
-	public long getProperty(String key) {
+	public String getProperty(String key) {
 
 		return prop.getProperty(key);
 

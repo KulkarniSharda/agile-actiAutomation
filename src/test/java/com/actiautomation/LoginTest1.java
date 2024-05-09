@@ -1,7 +1,5 @@
-package com.actiTestAutomation;
+package com.actiautomation;
 
-import com.actiautomation.CommonFunctions;
-import com.actiautomation.LoginPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,6 +9,8 @@ import org.testng.annotations.Test;
 
 public class LoginTest1 {
     WebDriver driver;
+
+
 
     @BeforeClass
     public void setup()  throws InterruptedException {
@@ -50,6 +50,7 @@ public class LoginTest1 {
         }
 
     }
+
     @DataProvider
     public Object [][] LoginTestTestNGData(){
         Object [][] obj=new Object[][]{

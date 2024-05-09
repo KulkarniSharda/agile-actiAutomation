@@ -1,4 +1,4 @@
-package com.actiTestAutomation;
+package com.testingset;
 
 import com.actiautomation.LoginPage;
 import org.openqa.selenium.By;

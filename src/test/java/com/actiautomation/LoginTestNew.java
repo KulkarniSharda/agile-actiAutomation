@@ -1,6 +1,5 @@
-package com.actiTestAutomation;
+package com.actiautomation;
 
-import com.actiautomation.LoginPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

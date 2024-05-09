@@ -1,6 +1,7 @@
-package com.actiTestAutomation;
-
-import com.actiautomation.CommonFunctions;
+package com.actiautomation;
+import com.automateFramework.BrowserBaseClass;
+import com.automateFramework.CommonFunction;
+import com.automateFramework.TaskPages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,13 +10,17 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class LoginPageTestNG {
+public class LoginPageTestNG extends BrowserBaseClass {
+    CommonFunction commonFunction;
+    LoginPage loginPage;
+    TaskPages taskPages;
+
     WebDriver driver;
     @BeforeTest
     public void setup() throws InterruptedException{
       //  WebDriver driver;
         CommonFunctions commonFunctions = new CommonFunctions();
-        WebDriver driver = commonFunctions.launchBrowser("chrome");
+         driver = launchBrowser("chrome");
         ChromeOptions options=new ChromeOptions();
         options.setBrowserVersion("121");
         options.addArguments("--remote- allow-origins=*");

@@ -1,4 +1,4 @@
-package com.actiTestAutomation;
+package com.testingset;
 
 import com.actiautomation.CommonFunctions;
 import com.actiautomation.LoginPage;
@@ -11,6 +11,8 @@ import org.testng.annotations.Test;
 
 public class LoginTest1 {
     WebDriver driver;
+
+
 
     @BeforeClass
     public void setup()  throws InterruptedException {
@@ -50,6 +52,7 @@ public class LoginTest1 {
         }
 
     }
+
     @DataProvider
     public Object [][] LoginTestTestNGData(){
         Object [][] obj=new Object[][]{
